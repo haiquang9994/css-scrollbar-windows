@@ -4,6 +4,8 @@ html.sbw {
   --thumbHoverBG: #858585;
 }
 
+/* use this if your css is theme-based */
+/**
 @media (prefers-color-scheme: dark) {
   html.sbw {
     --scrollbarBG: #242424;
@@ -11,6 +13,7 @@ html.sbw {
     --thumbHoverBG: #636363;
   }
 }
+*/
 
 .sbw,
 .sbw * {
