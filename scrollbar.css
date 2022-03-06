@@ -4,6 +4,14 @@ html.sbw {
   --thumbHoverBG: #858585;
 }
 
+@media (prefers-color-scheme: dark) {
+  html.sbw {
+    --scrollbarBG: #242424;
+    --thumbBG: #3b3b3b;
+    --thumbHoverBG: #636363;
+  }
+}
+
 .sbw,
 .sbw * {
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
