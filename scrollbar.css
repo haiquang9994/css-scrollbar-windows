@@ -29,6 +29,8 @@ html.sbw {
   -webkit-border-radius: 7.5px;
   border-radius: 7.5px;
   border: 3px solid var(--scrollbarBG);
+  min-height: 15%;
+  min-width: 15%;
 }
 
 .sbw::-webkit-scrollbar-thumb:hover,
